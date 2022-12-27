@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+html {
+    font-size: 80%;
+    background-color: #daf240;
+}
+
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 60%;
+        background-color: #daf240;
+    }
+}
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+        
+    }
+}
+@media (max-width: 425px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+
+.heading {
+    margin-top: 3.5rem;
+    font-size: 4.5rem;
+    background-color: #daf240;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: dotted; border-width: 4px; border-color: #ce0909;
+}
+
+input {
+    height: 6rem;
+    border-radius: 1rem;
+    font-size: 2.5rem !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.display {
+    text-align:right;
+    background-color:#36ebf4 !important;
+}
+
+#myform {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #04044b;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 5px 35px rgb(148, 5, 31);
+}
+
+.addbtn,
+.sinbtn {
+    background-color:#cc1111 !important;
+}
+
+.subbtn,
+.cosbtn {
+    background-color:#ba55d3 !important;
+}
+
+.multiplybtn,
+.tanbtn {
+    background-color:#21bd2b !important;
+}
+
+.clearbtn {
+    background-color:#cc0000 !important;
+}
+
+.dividebtn,
+.logbtn {
+    background-color:rgb(25, 120, 171) !important;
+}
